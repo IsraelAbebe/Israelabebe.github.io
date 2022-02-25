@@ -49,8 +49,8 @@ slight increase of overall accuracy.<br>
 
 6. ### Image Retrieval in Pytorch
     > This Project implements image retrieval from large image dataset using different image similarity measures based on the following two approaches. <br>
-        >> . Based on Siamese Network <br>
-        >> . Using Resnet pre-trained Network to extract features and store them based on LSH simmilarity to get faster responce for large dataset. <br>
+        >>  Based on Siamese Network <br>
+        >>  Using Resnet pre-trained Network to extract features and store them based on LSH simmilarity to get faster responce for large dataset. <br>
 >>[Github repository](https://github.com/IsraelAbebe/Image-retrieval-in-pytorch)
 
 6. ### Amharic Online Handwriting Recognition
