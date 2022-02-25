@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: #Israel Abebe Azime
+title: I.A
 
 # Your name to show in the footer
 author: Israel Abebe
@@ -17,7 +17,7 @@ navbar-links:
 
   Projects: "pages/projects"
   # Twittes: 'pages/tweets'
-  # Blogs: "pages/blogs"
+  Blogs: "pages/blogs"
   Download CV: "https://drive.google.com/file/d/1LsrXQ5OJ6ugbPvKJ05zgLkm6LsS0S5oa/view?usp=sharing"
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"

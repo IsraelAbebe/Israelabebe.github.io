@@ -4,7 +4,9 @@ title:
 subtitle: 
 ---
 
-1. [Prerequesites for Machine Learning]({{site.baseurl}}/pages/blogs/2022-02-25-ml-journey-1))
+<br>
+
+ <h5 align='center'><a href="{{site.baseurl}}/pages/blogs/2022-02-25-paper-review-1">1. Paper Reivew - AI and the Everything in the Whole Wide World Benchmark</a> </h5>
 
 
 
