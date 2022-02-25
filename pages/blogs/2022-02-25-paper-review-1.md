@@ -3,6 +3,8 @@ layout: post
 title: Paper Reivew - AI and the Everything in the Whole Wide World Benchmark
 subtitle: 
 date: 2022-02-25
+
+tags: [machine learning, deep learning, papers, benchmark]
 ---
 
 
@@ -16,4 +18,4 @@ The ideas presented in this paper were an original contribution to the research 
 Finally, I would like to see some practical use cases that tried to do what is recommended in this paper and have a real-world example for researchers. I wish to see the effect of this paper and the suggestions being accepted and adopted in the field.
 
 
-Read More: [arxiv.org/abs/2111.15366](https://arxiv.org/abs/2111.15366)
+The Paper: [arxiv.org/abs/2111.15366](https://arxiv.org/abs/2111.15366)
