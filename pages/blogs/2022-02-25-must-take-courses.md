@@ -4,6 +4,7 @@ title: Coursera Courses You Must Take For Machine Learning
 subtitle: 
 date: 2022-02-25
 tags: [machine learning, deep learning, courses, coursera]
+comments: true
 ---
 
 
