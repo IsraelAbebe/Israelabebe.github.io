@@ -13,3 +13,9 @@ I am a Senior Machine Learning Engineer, Applied Research Data Scientist and a S
 
 
 My reserch interests include Multimodal Learning, Natural Language Processing and Applications of Deep Learning.
+
+
+<!-- <hr> -->
+
+<!-- <h3 align='center'>News</h3> -->
+
