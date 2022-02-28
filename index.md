@@ -6,7 +6,7 @@ title: Israel A. Azime
 
 <!-- <hr>
 Wellcome to my page!  -->
-
+<hr>
 <br>
 
 I am a Senior Machine Learning Engineer, Applied Research Data Scientist and a Software Developer currently based in [Ethiopia](https://en.wikipedia.org/wiki/Ethiopia). My current roles include Applied Research Data Scientist at [Iquartic](https://iquartic.com/) and Applied ML Developer at [SingularityNet/ NuNet](https://nunet.io/#team).
