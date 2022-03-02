@@ -1,3 +1,16 @@
+---
+layout: post
+title: Amharic news text classification dataset with baseline performance
+subtitle: 
+date: 2022-03-02
+tags: [machine learning, deep learning, courses, coursera, Amharic]
+comments: true
+---
+
+
+In this tutorial we will go through how to do Amharic text classification on our new dataset. [This](https://github.com/IsraelAbebe/An-Amharic-News-Text-classification-Dataset) is the Github repo if you want to follow along.
+
+
 ```python
 %matplotlib inline
 
