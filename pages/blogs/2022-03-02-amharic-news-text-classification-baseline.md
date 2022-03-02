@@ -8,6 +8,8 @@ comments: true
 ---
 
 
+
+
 In this tutorial we will go through how to do Amharic text classification on our new dataset. [This](https://github.com/IsraelAbebe/An-Amharic-News-Text-classification-Dataset) is the Github repo if you want to follow along.
 
 
@@ -470,13 +472,6 @@ print(classification_report(y_test, y_pred, target_names=['ስፖርት', 'መ�
     
 
 
-    /home/israel/anaconda3/envs/py3.6/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1245: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
-      _warn_prf(average, modifier, msg_start, len(result))
-    /home/israel/anaconda3/envs/py3.6/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1245: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
-      _warn_prf(average, modifier, msg_start, len(result))
-    /home/israel/anaconda3/envs/py3.6/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1245: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
-      _warn_prf(average, modifier, msg_start, len(result))
-
 
 # Naive Bays - tf -df
 
@@ -557,12 +552,4 @@ print(classification_report(y_test, y_pred, target_names=['ስፖርት', 'መ�
        macro avg       0.50      0.64      0.51     10142
     weighted avg       0.75      0.62      0.62     10142
     
-
-
-    /home/israel/anaconda3/envs/py3.6/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1245: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-      _warn_prf(average, modifier, msg_start, len(result))
-    /home/israel/anaconda3/envs/py3.6/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1245: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-      _warn_prf(average, modifier, msg_start, len(result))
-    /home/israel/anaconda3/envs/py3.6/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1245: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-      _warn_prf(average, modifier, msg_start, len(result))
 

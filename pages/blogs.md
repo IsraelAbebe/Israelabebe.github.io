@@ -8,7 +8,7 @@ subtitle:
 
 
 > March 02,2022
-### [Amharic news text classification dataset with baseline performance]({{site.baseurl}}/pages/blogs/2022-03-02-Amharic-News-Text-classification-Baseline)
+### [Amharic news text classification dataset with baseline performance]({{site.baseurl}}/pages/blogs/2022-03-02-amharic-news-text-classification-baseline)
 
 > Feb 25,2022
 ###  [Coursera Courses You Must Take For Machine Learning]({{site.baseurl}}/pages/blogs/2022-02-25-must-take-courses)
