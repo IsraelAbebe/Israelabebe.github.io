@@ -10,7 +10,7 @@ Wellcome to my page!  -->
 <hr>
 <br>
 
-I am an resercher at [Saarland University](https://www.uni-saarland.de/en/home.html) and have more than four years of Machine learning experience.
+I am a resercher at [Saarland University](https://www.uni-saarland.de/en/home.html) and have more than four years of Machine learning experience.
 Previously I worked as Applied Research Data Scientist at [Iquartic](https://iquartic.com/) and Applied ML Developer at [SingularityNet/iCog-Labs](https://singularitynet.io/).
 
 
