@@ -9,10 +9,12 @@ Wellcome to my page!  -->
 <hr>
 <br>
 
-I am a Senior Machine Learning Engineer, Applied Research Data Scientist and a Software Developer currently based in [Ethiopia](https://en.wikipedia.org/wiki/Ethiopia). My current roles include Applied Research Data Scientist at [Iquartic](https://iquartic.com/) and Applied ML Developer at [SingularityNet/ NuNet](https://nunet.io/#team).
+I am an incoming research assistant at Saarland University and have more than four years of Machine learning experience.
+Previously I worked as Applied Research Data Scientist at Iquartic and Applied ML Developer at SingularityNet/iCog-Labs.
 
 
-My reserch interests include Multimodal Learning, Natural Language Processing and Applications of Deep Learning.
+My research interest includes High-Performance Computing in AI and Multimodal Learning, Natural Language processing, and Application of deep learning.
+
 
 
 <!-- <hr> -->
