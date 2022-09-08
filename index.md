@@ -9,8 +9,8 @@ Wellcome to my page!  -->
 <hr>
 <br>
 
-I am an incoming research assistant at Saarland University and have more than four years of Machine learning experience.
-Previously I worked as Applied Research Data Scientist at Iquartic and Applied ML Developer at SingularityNet/iCog-Labs.
+I am an incoming research assistant at [Saarland University](https://www.uni-saarland.de/en/home.html) and have more than four years of Machine learning experience.
+Previously I worked as Applied Research Data Scientist at [Iquartic](https://iquartic.com/) and Applied ML Developer at [SingularityNet/iCog-Labs](https://singularitynet.io/).
 
 
 My research interest includes High-Performance Computing in AI and Multimodal Learning, Natural Language processing, and Application of deep learning.
