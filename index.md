@@ -10,18 +10,15 @@ Wellcome to my page!  -->
 <hr>
 <br>
 
-Currently, I am a reserch assistant at [Saarland University](https://www.uni-saarland.de/en/home.html) and have more than four years of Machine learning experience.
-Previously I worked as Applied Research Data Scientist at [Iquartic](https://iquartic.com/) and Applied ML Developer at [SingularityNet/iCog-Labs](https://singularitynet.io/).
 
 
-
-I hold my MSc Mathematical Sciences – Machine Intelligence from [AIMS-AMMI](https://aimsammi.org/)  and Bachelor of Science in Software Engineering from [Addis Ababa Institute of Technology](http://www.aait.edu.et/)
-
+Currently, I am a research assistant at [Saarland University](https://www.uni-saarland.de/en/home.html) and have more than four years of Machine learning experience. Previously I worked as Applied Research Data Scientist at [Iquartic](https://iquartic.com/) and Applied ML Developer at [SingularityNet/iCog-Labs](https://singularitynet.io/).
 
 
-My research interest includes high-performance computing in AI, multimodal learning, natural language processing, and application of deep learning.
+I hold my MSc in Mathematical Sciences – Machine Intelligence from [AIMS-AMMI](https://aimsammi.org/)  and a Bachelor of Science in Software Engineering from [Addis Ababa Institute of Technology](http://www.aait.edu.et/).
 
 
+My research interest includes high-performance computing in AI, multimodal learning, natural language processing, and the application of deep learning.
 
 <!-- <hr> -->
 
