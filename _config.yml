@@ -18,7 +18,7 @@ navbar-links:
   Projects: "pages/projects"
   # Twittes: 'pages/tweets'
   Blogs: "pages/blogs"
-  Download CV: "https://drive.google.com/file/d/1HjPf-ccb3wvIuXmVVj7RKKJIR2R7YVwj/view?usp=drivesdk"
+  Download CV: "https://drive.google.com/file/d/1LsrXQ5OJ6ugbPvKJ05zgLkm6LsS0S5oa/view?usp=sharing"
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
@@ -57,7 +57,7 @@ social-network-links:
 #  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
-  telephone: +251913406256
+  telephone: +4915236952268
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -65,7 +65,7 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
-  # google-scholar: https://scholar.google.de/citations?hl=en&user=PcAQRn0AAAAJ
+  google-scholar: https://scholar.google.com/citations?user=PcAQRn0AAAAJ&hl=en
 #  discord: invite/invite_code or users/userid 
 
 # If you want your website to generate an RSS feed, provide a description
