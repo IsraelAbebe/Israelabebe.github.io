@@ -173,7 +173,7 @@ footer-hover-col: "#0085A1"
 #utterances:
 #  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
 #  issue-term: title   # Mapping between blog posts and GitHub issues
- theme: github-dark
+#  theme: github-dark
 #  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
 
 # To use Staticman comments, uncomment the following section. You may leave the reCaptcha
