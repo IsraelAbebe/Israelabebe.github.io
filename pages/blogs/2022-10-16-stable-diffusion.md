@@ -567,7 +567,7 @@ generate_samples('a  sculpture of <israel> ')
 
 
     
-![png](stable_diffusion_files/stable_diffusion_21_2.png)
+![png](image.png)
     
 
 
