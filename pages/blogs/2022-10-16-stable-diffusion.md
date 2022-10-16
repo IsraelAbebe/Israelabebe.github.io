@@ -567,7 +567,7 @@ generate_samples('a  sculpture of <israel> ')
 
 
     
-![png](image.png)
+![png](image.jpg)
     
 
 
