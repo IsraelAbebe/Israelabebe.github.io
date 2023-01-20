@@ -62,11 +62,11 @@ social-network-links:
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
-#  telegram: yourname
+# telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
-  google-scholar: https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F5ZygHGfjTTfXaA4lpxIXUAvcpMFA5hmtAgCMoQdX_8bUkTOPyOOpkiTI5E83Ywc-eeWMnVygyVkqQ793j5X5-XXPuzeA&user=PcAQRn0AAAAJ    #https://graphics.cg.uni-saarland.de/people/azime.html
+  google-scholar: citations?hl=en&view_op=list_works&gmla=AJsN-F5ZygHGfjTTfXaA4lpxIXUAvcpMFA5hmtAgCMoQdX_8bUkTOPyOOpkiTI5E83Ywc-eeWMnVygyVkqQ793j5X5-XXPuzeA&user=PcAQRn0AAAAJ    #https://graphics.cg.uni-saarland.de/people/azime.html
 #  discord: invite/invite_code or users/userid 
 
 # If you want your website to generate an RSS feed, provide a description
