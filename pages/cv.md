@@ -1,1 +1,10 @@
-<iframe src="data/Israel_CV.pdf" width="100%" height="500px">
+<body>
+    <center>
+        <h1 style="color: green">GeeksforGeeks</h1>
+        <h3>Embedding the PDF file Using Object Tag</h3>
+        <object data="data/Israel_CV.pdf" 
+                width="800" 
+                height="500"> 
+        </object>
+    </center>
+</body>
