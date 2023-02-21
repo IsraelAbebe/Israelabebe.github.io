@@ -18,7 +18,7 @@ navbar-links:
   Projects: "pages/projects"
   # Twittes: 'pages/tweets'
   Blogs: "pages/blogs"
-  Download CV: "pages/cv" #"https://drive.google.com/file/d/1BREyYZsclYPxORjgmehOFBt1qz8MCU4D/view?usp=sharing"
+  Download CV: "https://drive.google.com/file/d/1BREyYZsclYPxORjgmehOFBt1qz8MCU4D/view?usp=sharing"
   # Lets Read : "pages/read"
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
@@ -101,7 +101,7 @@ feed_show_tags: true
 post_search: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "Israel Abebe Azime, Multimodal Learning , NLP , Israel Abebe , Azime Israel, ICOG, UdS, Masakhane, Amharic, "
 
 # --- Colours / background image --- #
 
@@ -171,7 +171,7 @@ footer-hover-col: "#0085A1"
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
-#utterances:
+# utterances:
 #  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
 #  issue-term: title   # Mapping between blog posts and GitHub issues
 #  theme: github-dark
