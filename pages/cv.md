@@ -1,2 +1,1 @@
-
-[Some title here](data/Israel_CV.pdf)
+<iframe src="data/Israel_CV.pdf" width="100%" height="500px">
