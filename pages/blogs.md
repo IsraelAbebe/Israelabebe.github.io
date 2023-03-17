@@ -6,6 +6,9 @@ subtitle:
 
 <br>
 
+> October 16,2022
+### [Stable Diffusion Exercise ]({{site.baseurl}}/pages/blogs/2022-10-16-stable-diffusion)
+
 
 > March 02,2022
 ### [Amharic news text classification dataset with baseline performance]({{site.baseurl}}/pages/blogs/2022-03-02-amharic-news-text-classification-baseline)

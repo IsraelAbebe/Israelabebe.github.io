@@ -18,7 +18,8 @@ navbar-links:
   Projects: "pages/projects"
   # Twittes: 'pages/tweets'
   Blogs: "pages/blogs"
-  Download CV: "https://drive.google.com/file/d/1LsrXQ5OJ6ugbPvKJ05zgLkm6LsS0S5oa/view?usp=sharing"
+  Download CV: "https://drive.google.com/file/d/1BREyYZsclYPxORjgmehOFBt1qz8MCU4D/view?usp=sharing"
+  # Lets Read : "pages/read"
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
@@ -57,15 +58,15 @@ social-network-links:
 #  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
-  telephone: +251913406256
+  telephone: +4915236952268
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
-#  telegram: yourname
+# telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
-  # google-scholar: https://scholar.google.de/citations?hl=en&user=PcAQRn0AAAAJ
+  google-scholar: citations?hl=en&view_op=list_works&gmla=AJsN-F5ZygHGfjTTfXaA4lpxIXUAvcpMFA5hmtAgCMoQdX_8bUkTOPyOOpkiTI5E83Ywc-eeWMnVygyVkqQ793j5X5-XXPuzeA&user=PcAQRn0AAAAJ    #https://graphics.cg.uni-saarland.de/people/azime.html
 #  discord: invite/invite_code or users/userid 
 
 # If you want your website to generate an RSS feed, provide a description
@@ -100,7 +101,7 @@ feed_show_tags: true
 post_search: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "Israel Abebe Azime, Multimodal Learning , NLP , Israel Abebe , Azime Israel, ICOG, UdS, Masakhane, Amharic, "
 
 # --- Colours / background image --- #
 
@@ -170,10 +171,10 @@ footer-hover-col: "#0085A1"
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
-#utterances:
+# utterances:
 #  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
 #  issue-term: title   # Mapping between blog posts and GitHub issues
-#  theme: github-light # Utterances theme
+#  theme: github-dark
 #  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
 
 # To use Staticman comments, uncomment the following section. You may leave the reCaptcha
@@ -221,7 +222,7 @@ timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
+paginate: 10
 
 kramdown:
   input: GFM
