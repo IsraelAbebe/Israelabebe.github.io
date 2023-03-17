@@ -8,9 +8,22 @@ tags: [data scince projects, machine learning, deep learning, papers, benchmark]
 ---
 
 
+# List of Data Science Projects 
+
+ 1. Plant Disease Detection 
+
+- [x] Dataset - [GitHub](https://github.com/pratikkayal/PlantDoc-Dataset)
+- [x] Simmilar Implementation = [GitHub](https://github.com/IsraelAbebe/plant_disease_experiments)
 
 
-1. Plant Disease Detection
+2. Food Image Generation 
+
+- [x] Dataset - [Huggingface](https://huggingface.co/datasets/Tinsae/Ethiopian-foods)
+
+
+3. Data Collection Using Telegram Bots
+
+
 
 
 
