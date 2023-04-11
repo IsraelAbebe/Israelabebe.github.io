@@ -256,11 +256,12 @@ I hold my MSc in Mathematical Sciences – Machine Intelligence from [AIMS-AMMI]
 My research interest includes high-performance computing in AI, multimodal learning, natural language processing, and the application of deep learning.
 
 
-
+<div  style="width: 50%; margin: 0 auto;">
 <div class="typewriter">
     <div class="slide"><i></i></div>
     <div class="paper"></div>
     <div class="keyboard"></div>
+</div>
 </div>
 <!-- <hr> -->
 
