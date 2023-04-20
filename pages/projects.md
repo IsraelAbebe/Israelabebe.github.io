@@ -16,7 +16,41 @@ subtitle:
 <h2 align='center'> Projects I Worked On </h2>
 --------------------------------------------------
 
-1. ### Exploring Data Imbalance and Modality Bias inHateful Memes
+1. ### Natural Language Processing in Ethiopian Languages: Current State, Challenges, and Opportunities
+> This survey delves into the current state of
+natural language processing (NLP) for four
+Ethiopian languages: Amharic, Afaan Oromo,
+Tigrinya, and Wolaytta. Through this paper,
+we identify key challenges and opportunities
+for NLP research in Ethiopia. Furthermore,
+we provide a centralized repository on GitHub
+that contains publicly available resources for
+various NLP tasks in these languages. This
+repository can be updated periodically with
+contributions from other researchers. Our objective is to identify research gaps and disseminate the information to NLP researchers interested in Ethiopian languages and encourage future research in this domain.
+>>[PDF here](https://arxiv.org/pdf/2303.14406.pdf)
+
+
+
+2. ### Masakhane-Afrisenti at SemEval-2023 Task 12: Sentiment Analysis using Afro-centric Language Models and Adapters for Low-resource African Languages
+> In this paper, we describe our submission
+for the AfriSenti-SemEval Shared Task 12 of
+SemEval-2023. The task aims to perform
+monolingual sentiment classification (sub-task
+A) for 12 African languages, multilingual sentiment classification (sub-task B), and zeroshot sentiment classification (task C). For subtask A, we conducted experiments using classical machine learning classifiers, Afro-centric
+language models, and language-specific models. For task B, we fine-tuned multilingual pretrained language models that support many of
+the languages in the task. For task C, we
+used we make use of a parameter-efficient
+Adapter approach that leverages monolingual
+texts in the target language for effective zeroshot transfer. Our findings suggest that using
+pre-trained Afro-centric language models improves performance for low-resource African
+languages. We also ran experiments using
+adapters for zero-shot tasks, and the results
+suggest that we can obtain promising results
+by using
+>>[PDF here](https://arxiv.org/pdf/2304.06459.pdf)
+
+3. ### Exploring Data Imbalance and Modality Bias inHateful Memes
 > Multi-modal memes which consist of an image and text are very popular on social
 media but can sometimes be intentionally or unintentionally hateful. Understanding
 them and if they are hateful frequently requires to consider image and text jointly.
