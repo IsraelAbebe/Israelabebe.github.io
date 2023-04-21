@@ -7,7 +7,6 @@ subtitle:
 <p align='center'>
 <img src="http://ghchart.rshah.org/IsraelAbebe" alt="2016rshah's Github chart" />
 <br>
-<small><it>I am using Gitlab and other platforms this days</it></small>
 </p>
 
 <hr>
@@ -16,7 +15,16 @@ subtitle:
 <h2 align='center'> Projects I Worked On </h2>
 --------------------------------------------------
 
-1. ### Natural Language Processing in Ethiopian Languages: Current State, Challenges, and Opportunities
+1. ### MasakhaNEWS: News Topic Classification for African languages
+> African languages are severely under-represented in NLP research due to lack of datasets covering several NLP tasks. While there are individual language specific datasets that are being expanded to different tasks, only a handful of NLP tasks (e.g. named entity recognition and machine translation) have standardized benchmark datasets covering several geographical and typologically-diverse African languages. In this paper, we develop MasakhaNEWS -- a new benchmark dataset for news topic classification covering 16 languages widely spoken in Africa. We provide an evaluation of baseline models by training classical machine learning models and fine-tuning several language models. Furthermore, we explore several alternatives to full fine-tuning of language models that are better suited for zero-shot and few-shot learning such as cross-lingual parameter-efficient fine-tuning (like MAD-X), pattern exploiting training (PET), prompting language models (like ChatGPT), and prompt-free sentence transformer fine-tuning (SetFit and Cohere Embedding API). Our evaluation in zero-shot setting shows the potential of prompting ChatGPT for news topic classification in low-resource African languages, achieving an average performance of 70 F1 points without leveraging additional supervision like MAD-X. In few-shot setting, we show that with as little as 10 examples per label, we achieved more than 90\% (i.e. 86.0 F1 points) of the performance of full supervised training (92.6 F1 points) leveraging the PET approach.
+>>[paper](https://arxiv.org/pdf/2304.09972v1.pdf) | [code](https://github.com/masakhane-io/masakhane-news)
+
+
+
+
+
+
+2. ### Natural Language Processing in Ethiopian Languages: Current State, Challenges, and Opportunities
 > This survey delves into the current state of
 natural language processing (NLP) for four
 Ethiopian languages: Amharic, Afaan Oromo,
