@@ -90,13 +90,22 @@ slight increase of overall accuracy.<br>
     > . Implement segmentation pipeline to avoid misclassification due to unwanted input <br>
 >>[Github repository](https://github.com/IsraelAbebe/plant_disease_experiments)
 
-8. ### Image Retrieval in Pytorch
+
+8. ### Cassava Disease Classification
+    > Fine-tuning pre-trained models: notebook
+    > Hyperparameter search on Fine-tuning pre-trained models: notebook
+    > Model Ensemble: notebook
+    > SimCLR Unsupervised   
+    > Data Distrbution Measures
+>>[Github repository](https://github.com/IsraelAbebe/cassava_disease_classification)
+
+9. ### Image Retrieval in Pytorch
     > This Project implements image retrieval from large image dataset using different image similarity measures based on the following two approaches. <br>
         >>  Based on Siamese Network <br>
         >>  Using Resnet pre-trained Network to extract features and store them based on LSH simmilarity to get faster responce for large dataset. <br>
 >>[Github repository](https://github.com/IsraelAbebe/Image-retrieval-in-pytorch)
 
-9. ### Amharic Online Handwriting Recognition
+10. ### Amharic Online Handwriting Recognition
     > Using the touch screen capabilities of handhelds input method which is similar to handwriting is
             the best way to replace the current text entry approach. most people learn writing by using a pen
             and a pencil not a keyboard so writing on a touchscreen device like you write on a piece of paper
@@ -111,11 +120,11 @@ slight increase of overall accuracy.<br>
 >>[Project pdf](https://drive.google.com/file/d/1Ez0lWNhFe_WTk24bC-CBML7lsYPnKI3T/view?usp=sharing)
 
 
-10. ### Cassava Disease Classification
+11. ### Cassava Disease Classification
     > This project aims to detect cassava diseases in a dataset of 5 fine-grained cassava leaf disease categories with 9,436 annotated images and 12,595 unlabeled images.<br>
 
     >>[Github repository](https://github.com/IsraelAbebe/cassava_disease_classification)
 
-11. ### Amharic-NLP Projects
+12. ### Amharic-NLP Projects
     > Some NLP Projects for my Native language [Amharic](https://en.wikipedia.org/wiki/Amharic) <br>
     >>[GitHub repository](https://github.com/IsraelAbebe/Amharic-NLP)
