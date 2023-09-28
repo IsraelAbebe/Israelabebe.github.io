@@ -36,7 +36,7 @@ that contains publicly available resources for
 various NLP tasks in these languages. This
 repository can be updated periodically with
 contributions from other researchers. Our objective is to identify research gaps and disseminate the information to NLP researchers interested in Ethiopian languages and encourage future research in this domain.
->>[PDF here](https://arxiv.org/pdf/2303.14406.pdf)
+>>[paper](https://arxiv.org/pdf/2303.14406.pdf)
 
 
 
@@ -56,7 +56,7 @@ languages. We also ran experiments using
 adapters for zero-shot tasks, and the results
 suggest that we can obtain promising results
 by using
->>[PDF here](https://arxiv.org/pdf/2304.06459.pdf)
+>>[paper](https://arxiv.org/pdf/2304.06459.pdf)
 
 3. ### Exploring Data Imbalance and Modality Bias inHateful Memes
 > Multi-modal memes which consist of an image and text are very popular on social
