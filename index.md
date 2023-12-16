@@ -253,7 +253,7 @@ I am a PhD student and research assistant at [Saarland University](https://www.u
 I hold my MSc in Mathematical Sciences – Machine Intelligence from [AIMS-AMMI](https://aimsammi.org/)  and a Bachelor of Science in Software Engineering from [Addis Ababa Institute of Technology](http://www.aait.edu.et/).
 
 
-My research interest includes high-performance computing in AI, multimodal learning, natural language processing, and the application of deep learning.
+My research interest includes natural language processing, high-performance computing in AI, multimodal learning and the application of deep learning.
 
 
 <div  style="width: 18%; margin: 0 auto;">
