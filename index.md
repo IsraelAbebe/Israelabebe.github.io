@@ -6,37 +6,41 @@ tags: uni-saarland machine-learning
 ---
 
 <script>
-
-.wrapper {
-  width: 200px;
-  height: 60px;
+.typing-indicator {
+  width: 60px;
+  height: 30px;
   position: relative;
-  z-index: 1;
+  z-index: 4;
 }
 
-.circle {
-  width: 20px;
-  height: 20px;
+.typing-circle {
+  width: 8px;
+  height: 8px;
   position: absolute;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #000;
   left: 15%;
-  transform-origin: 50%;
-  animation: circle7124 .5s alternate infinite ease;
+  -webkit-transform-origin: 50%;
+      -ms-transform-origin: 50%;
+          transform-origin: 50%;
+  -webkit-animation: typing-circle7124 0.5s alternate infinite ease;
+          animation: typing-circle7124 0.5s alternate infinite ease;
 }
 
-@keyframes circle7124 {
+@-webkit-keyframes typing-circle7124 {
   0% {
-    top: 60px;
+    top: 20px;
     height: 5px;
     border-radius: 50px 50px 25px 25px;
-    transform: scaleX(1.7);
+    -webkit-transform: scaleX(1.7);
+            transform: scaleX(1.7);
   }
 
   40% {
-    height: 20px;
+    height: 8px;
     border-radius: 50%;
-    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
   }
 
   100% {
@@ -44,62 +48,109 @@ tags: uni-saarland machine-learning
   }
 }
 
-.circle:nth-child(2) {
-  left: 45%;
-  animation-delay: .2s;
-}
-
-.circle:nth-child(3) {
-  left: auto;
-  right: 15%;
-  animation-delay: .3s;
-}
-
-.shadow {
-  width: 20px;
-  height: 4px;
-  border-radius: 50%;
-  background-color: rgba(0,0,0,0.9);
-  position: absolute;
-  top: 62px;
-  transform-origin: 50%;
-  z-index: -1;
-  left: 15%;
-  filter: blur(1px);
-  animation: shadow046 .5s alternate infinite ease;
-}
-
-@keyframes shadow046 {
+@keyframes typing-circle7124 {
   0% {
-    transform: scaleX(1.5);
+    top: 20px;
+    height: 5px;
+    border-radius: 50px 50px 25px 25px;
+    -webkit-transform: scaleX(1.7);
+            transform: scaleX(1.7);
   }
 
   40% {
-    transform: scaleX(1);
-    opacity: .7;
+    height: 8px;
+    border-radius: 50%;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
   }
 
   100% {
-    transform: scaleX(.2);
-    opacity: .4;
+    top: 0%;
   }
 }
 
-.shadow:nth-child(4) {
+.typing-circle:nth-child(2) {
   left: 45%;
-  animation-delay: .2s
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
 }
 
-.shadow:nth-child(5) {
+.typing-circle:nth-child(3) {
   left: auto;
   right: 15%;
-  animation-delay: .3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 
+.typing-shadow {
+  width: 5px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 30px;
+  -webkit-transform-origin: 50%;
+      -ms-transform-origin: 50%;
+          transform-origin: 50%;
+  z-index: 3;
+  left: 15%;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  -webkit-animation: typing-shadow046 0.5s alternate infinite ease;
+          animation: typing-shadow046 0.5s alternate infinite ease;
+}
 
+@-webkit-keyframes typing-shadow046 {
+  0% {
+    -webkit-transform: scaleX(1.5);
+            transform: scaleX(1.5);
+  }
+
+  40% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    opacity: 0.7;
+  }
+
+  100% {
+    -webkit-transform: scaleX(0.2);
+            transform: scaleX(0.2);
+    opacity: 0.4;
+  }
+}
+
+@keyframes typing-shadow046 {
+  0% {
+    -webkit-transform: scaleX(1.5);
+            transform: scaleX(1.5);
+  }
+
+  40% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    opacity: 0.7;
+  }
+
+  100% {
+    -webkit-transform: scaleX(0.2);
+            transform: scaleX(0.2);
+    opacity: 0.4;
+  }
+}
+
+.typing-shadow:nth-child(4) {
+  left: 45%;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.typing-shadow:nth-child(5) {
+  left: auto;
+  right: 15%;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
 </script>
-
-
 
 <!-- <hr>
 Wellcome to my page!  -->
@@ -118,14 +169,14 @@ My research interest includes natural language processing, high-performance comp
 
 
 <div  style="width: 18%; margin: 0 auto;">
-  <div class="wrapper">
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="shadow"></div>
-      <div class="shadow"></div>
-      <div class="shadow"></div>
-  </div>
+  <div class="typing-indicator">
+    <div class="typing-circle"></div>
+    <div class="typing-circle"></div>
+    <div class="typing-circle"></div>
+    <div class="typing-shadow"></div>
+    <div class="typing-shadow"></div>
+    <div class="typing-shadow"></div>
+</div>
 </div>
 
 
