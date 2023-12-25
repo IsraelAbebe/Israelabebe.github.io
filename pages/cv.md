@@ -1,3 +1,12 @@
-<embed src="data/Israel_CV.pdf" type="application/pdf" style="height: -webkit-fill-available;width: -webkit-fill-available"/>
+---
+layout: single
+title: 
+subtitle: 
+---
 
-<embed src="https://github.com/IsraelAbebe/Israelabebe.github.io/raw/master/pages/data/Israel_CV.pdf" type="application/pdf" style="height: -webkit-fill-available;width: -webkit-fill-available"/>
+
+<div>
+
+<embed src="{{site.baseurl}}/assets/Israel_CV.pdf" width="100%" height="2100px"  />
+
+</div>
