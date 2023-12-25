@@ -18,7 +18,7 @@ navbar-links:
   Projects / Publications: "pages/projects"
   # Twittes: 'pages/tweets'
   Blogs: "pages/blogs"
-  CV: "https://drive.google.com/file/d/1BREyYZsclYPxORjgmehOFBt1qz8MCU4D/view?usp=sharing"
+  CV: "pages/cv" #"https://drive.google.com/file/d/1BREyYZsclYPxORjgmehOFBt1qz8MCU4D/view?usp=sharing"
   # Lets Read : "pages/read"
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
