@@ -19,7 +19,7 @@ I am currently a PhD student and research assistant at [Saarland University](htt
 
 Academically, I hold an MSc in Mathematical Sciences – Machine Intelligence from [AIMS-AMMI](https://aimsammi.org/) and a Bachelor of Science in Software Engineering from [Addis Ababa Institute of Technology](http://www.aait.edu.et/).
 
-I am an active member of the [Masakhane](https://www.masakhane.io/) community and [ETHIO NLP](https://ethionlp.github.io/), 
+I am an active member of the [Masakhane](https://www.masakhane.io/) and [ETHIO NLP](https://ethionlp.github.io/) community.
 
 My research interest includes natural language processing, high-performance computing in AI, multimodal learning and the application of deep learning.
 
