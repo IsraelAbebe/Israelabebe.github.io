@@ -2,6 +2,7 @@
 layout: default
 title: Projects
 subtitle: 
+tags: llm, african languages, amharic
 ---
 
 <p align='center'>
