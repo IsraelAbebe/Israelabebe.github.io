@@ -24,7 +24,14 @@ I am an active member of the [Masakhane](https://www.masakhane.io/) and [ETHIO N
 My research interest includes natural language processing, high-performance computing in AI, multimodal learning and the application of deep learning.
 
 
-<!-- <hr> -->
 
-<!-- <h3 align='center'>News</h3> -->
+<h2 align='center'>News</h2>
+
+
+
+{% for page in site.pages reversed %}
+{% if page.url contains '/pages/news/' and page.title %}
+<p>{{ page.date | date: "%B %d, %Y" }} 🗞️ {{page.role}} <i> <a href="{{page.link}}">{{ page.title }}</a></i></p> 
+{% endif %}
+{% endfor %}
 

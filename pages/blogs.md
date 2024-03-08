@@ -252,18 +252,17 @@ subtitle:
 
 <br>
 
-> October 16,2022
-### [Stable Diffusion Exercise ]({{site.baseurl}}/pages/blogs/2022-10-16-stable-diffusion)
+
+<ul>
+
+{% for page in site.pages reversed %}
+  {% if page.url contains '/pages/blogs/' and page.title %}
+    <li><p>{{ page.date | date: "%B %d, %Y" }} ⌨️ <b><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></b></p></li>
+  {% endif %}
+{% endfor %}
+</ul>
 
 
-> March 02,2022
-### [Amharic news text classification dataset with baseline performance]({{site.baseurl}}/pages/blogs/2022-03-02-amharic-news-text-classification-baseline)
-
-> Feb 25,2022
-###  [Coursera Courses You Must Take For Machine Learning]({{site.baseurl}}/pages/blogs/2022-02-25-must-take-courses)
-
-> Feb 25,2022
-### [Paper Reivew - AI and the Everything in the Whole Wide World Benchmark]({{site.baseurl}}/pages/blogs/2022-02-25-paper-review-1)
 
 
 
