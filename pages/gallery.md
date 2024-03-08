@@ -260,14 +260,22 @@ function slideIndicator(toIndex) {
 <div class="carousel">
       <div class="carousel_inner">
          <div class="carousel_item carousel_item__active">
-            <img src="{{site.baseurl}}/assets/img/PXL_20230720_060406788.jpg" alt="" class="carousel_img">
+            <img src="{{site.baseurl}}/assets/img/gallery/PXL_20230720_060406788.jpg" alt="" class="carousel_img">
             <div class="carousel_caption">
                <h1 class="carousel_title">My pictures </h1>
             </div>
          </div>
-         <div class="carousel_item">
+         <!-- <div class="carousel_item">
              <img src="{{site.baseurl}}/assets/img/PXL_20230720_060406788.jpg" alt="" class="carousel_img">
-         </div>
+         </div> -->
+
+         {% for file in site.static_files %}
+         {% if file.path contains '/assets/img/gallery/' %}
+             <div class="carousel_item">
+               <img src="{{ site.baseurl }}{{ file.path }}" alt="" class="carousel_img">
+            </div>
+         {% endif %}
+         {% endfor %}
       </div>
 
       <div class="carousel_indicator">
