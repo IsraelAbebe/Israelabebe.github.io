@@ -19,7 +19,7 @@ navbar-links:
   # Twittes: 'pages/tweets'
   Blogs: "pages/blogs"
   CV: "pages/cv" #"https://drive.google.com/file/d/1BREyYZsclYPxORjgmehOFBt1qz8MCU4D/view?usp=sharing"
-  # Lets Read : "pages/read"
+  📸 : "pages/gallery"
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
