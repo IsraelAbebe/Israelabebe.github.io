@@ -14,117 +14,36 @@ subtitle:
 
 <h2 align='center'> Projects I Worked On </h2>
 --------------------------------------------------
+<ol>
 
-1. ### MasakhaNEWS: News Topic Classification for African languages
-> African languages are severely under-represented in NLP research due to lack of datasets covering several NLP tasks. While there are individual language specific datasets that are being expanded to different tasks, only a handful of NLP tasks (e.g. named entity recognition and machine translation) have standardized benchmark datasets covering several geographical and typologically-diverse African languages. In this paper, we develop MasakhaNEWS -- a new benchmark dataset for news topic classification covering 16 languages widely spoken in Africa. We provide an evaluation of baseline models by training classical machine learning models and fine-tuning several language models. Furthermore, we explore several alternatives to full fine-tuning of language models that are better suited for zero-shot and few-shot learning such as cross-lingual parameter-efficient fine-tuning (like MAD-X), pattern exploiting training (PET), prompting language models (like ChatGPT), and prompt-free sentence transformer fine-tuning (SetFit and Cohere Embedding API). Our evaluation in zero-shot setting shows the potential of prompting ChatGPT for news topic classification in low-resource African languages, achieving an average performance of 70 F1 points without leveraging additional supervision like MAD-X. In few-shot setting, we show that with as little as 10 examples per label, we achieved more than 90% (i.e. 86.0 F1 points) of the performance of full supervised training (92.6 F1 points) leveraging the PET approach.
->>[paper](https://arxiv.org/pdf/2304.09972v1.pdf) | [code](https://github.com/masakhane-io/masakhane-news)
-
-
-
-
-
-
-2. ### Natural Language Processing in Ethiopian Languages: Current State, Challenges, and Opportunities
-> This survey delves into the current state of
-natural language processing (NLP) for four
-Ethiopian languages: Amharic, Afaan Oromo,
-Tigrinya, and Wolaytta. Through this paper,
-we identify key challenges and opportunities
-for NLP research in Ethiopia. Furthermore,
-we provide a centralized repository on GitHub
-that contains publicly available resources for
-various NLP tasks in these languages. This
-repository can be updated periodically with
-contributions from other researchers. Our objective is to identify research gaps and disseminate the information to NLP researchers interested in Ethiopian languages and encourage future research in this domain.
->>[paper](https://arxiv.org/pdf/2303.14406.pdf)
-
-
-
-2. ### Masakhane-Afrisenti at SemEval-2023 Task 12: Sentiment Analysis using Afro-centric Language Models and Adapters for Low-resource African Languages
-> In this paper, we describe our submission
-for the AfriSenti-SemEval Shared Task 12 of
-SemEval-2023. The task aims to perform
-monolingual sentiment classification (sub-task
-A) for 12 African languages, multilingual sentiment classification (sub-task B), and zeroshot sentiment classification (task C). For subtask A, we conducted experiments using classical machine learning classifiers, Afro-centric
-language models, and language-specific models. For task B, we fine-tuned multilingual pretrained language models that support many of
-the languages in the task. For task C, we
-used we make use of a parameter-efficient
-Adapter approach that leverages monolingual
-texts in the target language for effective zeroshot transfer. Our findings suggest that using
-pre-trained Afro-centric language models improves performance for low-resource African
-languages. We also ran experiments using
-adapters for zero-shot tasks, and the results
-suggest that we can obtain promising results
-by using
->>[paper](https://arxiv.org/pdf/2304.06459.pdf)
-
-3. ### Exploring Data Imbalance and Modality Bias inHateful Memes
-> Multi-modal memes which consist of an image and text are very popular on social
-media but can sometimes be intentionally or unintentionally hateful. Understanding
-them and if they are hateful frequently requires to consider image and text jointly.
-Naturally, hateful memes appear less frequent than non-hateful ones, creating a
-data imbalance in addition to modality biases present between the language and
-visual modality. In this work, we study the Hateful Memes dataset and evaluate
-several approaches to reduce data imbalance. In our experiments we show that
-simple dataset balancing and image augmentation can reduce the most concerning
-error, namely overlooking hateful content, significantly (175 to 112 errors), at a
-slight increase of overall accuracy.<br>
->>[PDF here](https://drive.google.com/file/d/1LarvIKEkYNu9lZPt97diU_OmGieg8Sow/view)
-
-4.  ### An Amharic News Text classification Dataset
- >  In NLP, text classification is one of the primary problems we try to solve and its uses in language analyses are indisputable. The lack of labeled training data made it harder to do these tasks in low resource languages like Amharic. The task of collecting, labeling, annotating, and making valuable this kind of data will encourage junior researchers, schools, and machine learning practitioners to implement existing classification models in their language. In this short paper, we aim to introduce the Amharic text classification dataset that consists of more than 50k news articles that were categorized into 6 classes. This dataset is made available with easy baseline performances to encourage studies and better performance experiments.<br>
-    >>[arxiv.org/abs/2103.05639](https://arxiv.org/abs/2103.05639)
-
-5. ### MasakhaNER: Named Entity Recognition for African Languages
-    > We take a step towards addressing the under-representation of the African continent in NLP research by creating the first large publicly available high-quality dataset for named entity recognition (NER) in ten African languages, bringing together a variety of stakeholders. We detail characteristics of the languages to help researchers understand the challenges that these languages pose for NER. We analyze our datasets and conduct an extensive empirical evaluation of state-of-the-art methods across both supervised and transfer learning settings. We release the data, code, and models in order to inspire future research on African NLP.<br>
->>[arxiv.org/abs/2103.11811](https://arxiv.org/abs/2103.11811)
-
-6. ### Quality at a Glance: An Audit of Web-Crawled Multilingual Datasets
-
-    > With the success of large-scale pre-training and multilingual modeling in Natural Language Processing (NLP), recent years have seen a proliferation of large, web-mined text datasets covering hundreds of languages. We manually audit the quality of 205 language-specific corpora released with five major public datasets (CCAligned, ParaCrawl, WikiMatrix, OSCAR, mC4). Lower-resource corpora have systematic issues: At least 15 corpora have no usable text, and a significant fraction contains less than 50% sentences of acceptable quality. In addition, many are mislabeled or use nonstandard/ambiguous language codes. We demonstrate that these issues are easy to detect even for non-proficient speakers, and supplement the human audit with automatic analyses. Finally, we recommend techniques to evaluate and improve multilingual corpora and discuss potential risks that come with low-quality data releases.<br>
->>[arxiv.org/abs/2103.12028](https://arxiv.org/abs/2103.12028)
-
-7. ### Plant Disease Detection using Deep Learning
-    > . Train and Evaluate different DNN Models for plant disease detection problem <br>
-    > . To tackle the problem of scarce real-life representative data, experiment with different generative networks and generate more plant leaf image data <br>
-    > . Implement segmentation pipeline to avoid misclassification due to unwanted input <br>
->>[Github repository](https://github.com/IsraelAbebe/plant_disease_experiments)
+{% for page in site.pages reversed %}
+  {% if page.url contains '/pages/publication/' and page.title %}
+    <li><div>
+        <!-- <li><p>{{ page.date | date: "%B %d, %Y" }} › <b><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></b></p></li> -->
+        <h3>{{ page.title }}</h3>
+        <p style="color: #757575; font-style: italic;">{{ page.date }}</p>
+        <p style="color: #757575; font-style: italic;">{{ page.abstract }}</p>
+        {% if page.paper %}
+            <a href="{{ page.paper }}"><svg width="32" height="32" id="primary_logo" data-name="primary logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246.978 111.119"><path d="M427.571,255.154c1.859,0,3.1,1.24,3.985,3.453,1.062-2.213,2.568-3.453,4.694-3.453h14.878a4.062,4.062,0,0,1,4.074,4.074v7.828c0,2.656-1.327,4.074-4.074,4.074-2.656,0-4.074-1.418-4.074-4.074V263.3H436.515a2.411,2.411,0,0,0-2.656,2.745v27.188h10.007c2.658,0,4.074,1.329,4.074,4.074s-1.416,4.074-4.074,4.074h-26.39c-2.659,0-3.986-1.328-3.986-4.074s1.327-4.074,3.986-4.074h8.236V263.3h-7.263c-2.656,0-3.985-1.329-3.985-4.074,0-2.658,1.329-4.074,3.985-4.074Z" transform="translate(-358.165 -222.27)" fill="#7c7469"/><path d="M539.233,255.154c2.656,0,4.074,1.416,4.074,4.074v34.007h10.1c2.746,0,4.074,1.329,4.074,4.074s-1.328,4.074-4.074,4.074H524.8c-2.656,0-4.074-1.328-4.074-4.074s1.418-4.074,4.074-4.074h10.362V263.3h-8.533c-2.744,0-4.073-1.329-4.073-4.074,0-2.658,1.329-4.074,4.073-4.074Zm4.22-17.615a5.859,5.859,0,1,1-5.819-5.819A5.9,5.9,0,0,1,543.453,237.539Z" transform="translate(-358.165 -222.27)" fill="#7c7469"/><path d="M605.143,259.228a4.589,4.589,0,0,1-.267,1.594L590,298.9a3.722,3.722,0,0,1-3.721,2.48h-5.933a3.689,3.689,0,0,1-3.808-2.48l-15.055-38.081a3.23,3.23,0,0,1-.355-1.594,4.084,4.084,0,0,1,4.164-4.074,3.8,3.8,0,0,1,3.718,2.656l14.348,36.134,13.9-36.134a3.8,3.8,0,0,1,3.72-2.656A4.084,4.084,0,0,1,605.143,259.228Z" transform="translate(-358.165 -222.27)" fill="#7c7469"/><path d="M486.149,277.877l-32.741,38.852c-1.286,1.372-2.084,3.777-1.365,5.5a4.705,4.705,0,0,0,4.4,2.914,4.191,4.191,0,0,0,3.16-1.563l40.191-42.714a4.417,4.417,0,0,0,.042-6.042Z" transform="translate(-358.165 -222.27)" fill="#aa142d"/><path d="M486.149,277.877l31.187-38.268c1.492-1.989,2.2-3.03,1.492-4.723a5.142,5.142,0,0,0-4.481-3.161h0a4.024,4.024,0,0,0-3.008,1.108L472.711,274.6a4.769,4.769,0,0,0,.015,6.53L520.512,332.2a3.913,3.913,0,0,0,3.137,1.192,4.394,4.394,0,0,0,4.027-2.818c.719-1.727-.076-3.438-1.4-5.23l-40.124-47.464" transform="translate(-358.165 -222.27)" fill="#7c7469"/><path d="M499.833,274.828,453.169,224.4s-1.713-2.08-3.524-2.124a4.607,4.607,0,0,0-4.338,2.788c-.705,1.692-.2,2.88,1.349,5.1l40.093,48.422" transform="translate(-358.165 -222.27)" fill="#aa142d"/><path d="M390.61,255.154c5.018,0,8.206,3.312,8.206,8.4v37.831H363.308a4.813,4.813,0,0,1-5.143-4.929V283.427a8.256,8.256,0,0,1,7-8.148l25.507-3.572v-8.4H362.306a4.014,4.014,0,0,1-4.141-4.074c0-2.87,2.143-4.074,4.355-4.074Zm.059,38.081V279.942l-24.354,3.4v9.9Z" transform="translate(-358.165 -222.27)" fill="#7c7469"/></svg></a>
+        {% endif %}
+        {% if page.github %}
+            <a href="{{ page.github }}">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+            </svg>
+            </a>
+        {% endif %}
+        {% if page.data %}
+            <a href="{{ page.data }}"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-database" viewBox="0 0 16 16"><path d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313M13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A5 5 0 0 0 13 5.698M14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A5 5 0 0 0 13 8.698m0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525"/></svg>
+            </a>
+        {% endif %}
+        
 
 
-8. ### Cassava Disease Classification
-    > Fine-tuning pre-trained models: notebook
-    > Hyperparameter search on Fine-tuning pre-trained models: notebook
-    > Model Ensemble: notebook
-    > SimCLR Unsupervised   
-    > Data Distrbution Measures
->>[Github repository](https://github.com/IsraelAbebe/cassava_disease_classification)
+        
 
-9. ### Image Retrieval in Pytorch
-    > This Project implements image retrieval from large image dataset using different image similarity measures based on the following two approaches. <br>
-        >>  Based on Siamese Network <br>
-        >>  Using Resnet pre-trained Network to extract features and store them based on LSH simmilarity to get faster responce for large dataset. <br>
->>[Github repository](https://github.com/IsraelAbebe/Image-retrieval-in-pytorch)
-
-10. ### Amharic Online Handwriting Recognition
-    > Using the touch screen capabilities of handhelds input method which is similar to handwriting is
-            the best way to replace the current text entry approach. most people learn writing by using a pen
-            and a pencil not a keyboard so writing on a touchscreen device like you write on a piece of paper
-            is the natural and easiest way for the users .users can stroke their hand on a given canvas and the
-            application reads what they write .
-            Online handwriting recognition (OHWR) is getting renewed interest as it provides data entry
-            mechanism that is similar to natural way of writing.
-            This project mainly focuses on using this technique to solve the problem mentioned above. The
-            online handwriting recognition project is not new idea .in recent years many researchers are
-            adopting this method for their language use. 
-        <br>
->>[Project pdf](https://drive.google.com/file/d/1Ez0lWNhFe_WTk24bC-CBML7lsYPnKI3T/view?usp=sharing)
-
-
-11. ### Cassava Disease Classification
-    > This project aims to detect cassava diseases in a dataset of 5 fine-grained cassava leaf disease categories with 9,436 annotated images and 12,595 unlabeled images.<br>
-
-    >>[Github repository](https://github.com/IsraelAbebe/cassava_disease_classification)
-
-12. ### Amharic-NLP Projects
-    > Some NLP Projects for my Native language [Amharic](https://en.wikipedia.org/wiki/Amharic) <br>
-    >>[GitHub repository](https://github.com/IsraelAbebe/Amharic-NLP)
+    </div>
+    </li>
+  {% endif %}
+{% endfor %}
+</ol>
