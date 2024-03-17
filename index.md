@@ -27,7 +27,7 @@ My research interest includes natural language processing, high-performance comp
 
 
 
-{% for page in site.pages reversed %}
+{% for page in site.pages  %}
 {% if page.url contains '/pages/news/' and page.title %}
 <p>{{ page.date | date: "%B %d, %Y" }} 🗞️ {{page.role}} <i> <a href="{{page.link}}">{{ page.title }}</a></i></p> 
 {% endif %}
