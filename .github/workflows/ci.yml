@@ -5,8 +5,7 @@ jobs:
     name: Build Jekyll
     runs-on: ubuntu-latest
     steps:
-      - using: 'node20'
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Build the site in the jekyll/builder container
         run: |
           export JEKYLL_VERSION=3.8
