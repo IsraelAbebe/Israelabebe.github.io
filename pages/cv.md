@@ -50,10 +50,15 @@ subtitle:
 
 
 <div>
-    <a href="https://drive.google.com/file/d/1BREyYZsclYPxORjgmehOFBt1qz8MCU4D/view?usp=sharing">
-        <button class="btn"><i class="animation"></i>Download Cv<i class="animation"></i>
+        <button class="btn">
+        <i class="animation">
+        </i>
+        <a href="https://drive.google.com/file/d/1BREyYZsclYPxORjgmehOFBt1qz8MCU4D/view?usp=sharing">
+            Download Cv
+        </a>
+        <i class="animation">
+        </i>
         </button>
-    </a>
 </div>
 <div>
 
