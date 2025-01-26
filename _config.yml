@@ -15,7 +15,9 @@ author: Israel Abebe
 
 navbar-links:
 
-  Projects / Publications: "pages/projects"
+  
+  Publications: "pages/publication"
+  Projects: "pages/projects"
   # Twittes: 'pages/tweets'
   Blogs: "pages/blogs"
   CV: "pages/cv" #"https://drive.google.com/file/d/1BREyYZsclYPxORjgmehOFBt1qz8MCU4D/view?usp=sharing"

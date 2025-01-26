@@ -16,6 +16,7 @@ subtitle:
 --------------------------------------------------
 <ol>
 
+
 {% for page in site.pages reversed %}
   {% if page.url contains '/pages/publication/' and page.title %}
     <li><div>
