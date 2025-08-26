@@ -23,7 +23,7 @@ My research interest includes natural language processing, high-performance comp
 
 
 
-<h2 align='center'>News</h2>
+<!-- <h2 align='center'>News</h2>
 
 
 
@@ -32,4 +32,4 @@ My research interest includes natural language processing, high-performance comp
 <p>{{ page.date | date: "%B %d, %Y" }} 🗞️ {{page.role}} <i> <a href="{{page.link}}">{{ page.title }}</a></i></p> 
 {% endif %}
 {% endfor %}
-
+ -->
