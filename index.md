@@ -19,7 +19,8 @@ I am currently a PhD student and research assistant at [Saarland University](htt
 
 I hold an MSc in Mathematical Sciences – Machine Intelligence from [AIMS-AMMI](https://aimsammi.org/) and a Bachelor of Science in Software Engineering from [Addis Ababa Institute of Technology](http://www.aait.edu.et/). I am an active member of the [Masakhane](https://www.masakhane.io/), [ETHIO NLP](https://ethionlp.github.io/)  and [AI-Grid](https://ai-grid.org/en/) community.
 
-My research interest includes natural language processing, high-performance computing in AI, multimodal learning and the application of deep learning.
+My research focuses on effective domain adaptation and evaluation methods for large language models (LLMs) in low-resource human and data languages. The overarching goal of my work is to advance the development of AI systems that are accurate, interpretable, robust, and culturally grounded, while remaining human-centered and contextually aware. I investigates how LLMs can better understand, reason, and communicate across linguistic, cultural, and structural boundaries, bridging the gap between human meaning and machine representation. Ultimately, my work aims to create socially aware and context-sensitive AI systems that perform reliably across diverse languages and data modalities.
+
 
 
 
