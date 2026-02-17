@@ -11,7 +11,7 @@ tags: uni-saarland machine-learning
 <hr>
 <br>
 
- - LLM reasoning, grounding, robustness, and evaluation using multilingual and cultural variation as a scientific lens -
+LLM reasoning, grounding, robustness, and evaluation using multilingual and cultural variation as a scientific lens
 
 
 
