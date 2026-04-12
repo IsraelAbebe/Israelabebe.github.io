@@ -1,0 +1,9 @@
+---
+title: "AfroXLMR-Social: Adapting Pre-trained Language Models for African Languages Social Media Text"
+date: 2025-03-24
+paper: http://arxiv.org/abs/2503.18247v3
+authors: "Tadesse Destaw Belay, Israel Abebe Azime, Ibrahim Said Ahmad, David Ifeoluwa Adelani, Idris Abdulmumin, Abinew Ali Ayele, Shamsuddeen Hassan Muhammad, Seid Muhie Yimam"
+layout: default
+---
+
+Language models built from various sources are the foundation of today's NLP progress. However, for many low-resource languages, the diversity of domains is often limited, more biased to a religious domain, which impacts their performance when evaluated on distant and rapidly evolving domains such as social media. Domain adaptive pre-training (DAPT) and task-adaptive pre-training (TAPT) are popular techniques to reduce this bias through continual pre-training for BERT-based models, but they have not been explored for African multilingual encoders. In this paper, we explore DAPT and TAPT continual pre-training approaches for African languages social media domain. We introduce AfriSocial, a large-scale social media and news domain corpus for continual pre-training on several African languages. Leveraging AfriSocial, we show that DAPT consistently improves performance (from 1% to 30% F1 score) on three subjective tasks: sentiment analysis, multi-label emotion, and hate speech classification, covering 19 languages. Similarly, leveraging TAPT on the data from one task enhances performance on other related tasks. For example, training with unlabeled sentiment data (source) for a fine-grained emotion classification task (target) improves the baseline results by an F1 score ranging from 0.55% to 15.11%. Combining these two methods (i.e. DAPT + TAPT) further improves the overall performance. The data and model resources are available at HuggingFace.

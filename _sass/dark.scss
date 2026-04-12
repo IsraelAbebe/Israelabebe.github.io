@@ -1,15 +1,53 @@
 .dark {
-  background-color: #222;
-  color: #e6e6e6;
+  background-color: #121212;
+  color: #ccc;
 }
 
 .dark {
+  h1, h2, h3, h4, h5, h6 {
+    color: #eee;
+  }
+
   mark {
-    color: #222;
-    background-color: #e6e6e6;
+    color: #121212;
+    background-color: #ccc;
   }
 
   a {
-    color: #477dca;
+    color: #66b2ff;
+  }
+
+  .publications-list h4 a {
+    color: #66b2ff;
+  }
+
+  p, div, span, li {
+    color: #bbb;
+  }
+
+  .button--sacnite {
+    background: #333;
+    color: #eee !important;
+    border-color: #444;
+    &:hover {
+      background: #444;
+      border-color: #555;
+    }
+  }
+
+  .icons i {
+    color: #ccc;
+  }
+
+  header h1, header h2 {
+    color: #eee;
+  }
+
+  .pub-authors { color: #aaa; }
+  .pub-authors strong { color: #eee; }
+  
+  .section-nav .nav-link {
+    color: #888;
+    &:hover { color: #fff; }
   }
 }

@@ -1,0 +1,96 @@
+<div class="row clearfix">
+  <div class="col-md-12">
+    <div id="homepage-github-projects" class="row">
+      <p style="text-align: center; font-style: italic; color: #888;">Fetching repositories from GitHub...</p>
+    </div>
+    <div class="view-more-container">
+      <a href="{{ '/projects/' | relative_url }}" class="btn-view-more">
+        <span>View All Projects</span>
+        <i class="bi bi-arrow-right-circle"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    const username = 'IsraelAbebe';
+    const apiUrl = `https://api.github.com/users/${username}/repos?sort=updated&per_page=6`;
+
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(repos => {
+        const sortedRepos = repos
+          .filter(repo => !repo.fork && repo.description)
+          .sort((a, b) => b.stargazers_count - a.stargazers_count)
+          .slice(0, 4);
+
+        let html = '';
+        sortedRepos.forEach(repo => {
+          html += `
+            <div class="col-xs-12 col-sm-6" style="margin-bottom: 20px;">
+              <div class="project-card" style="border: 1px solid #eee; padding: 20px; border-radius: 8px; height: 100%; transition: all 0.3s ease; display: flex; flex-direction: column;">
+                <h4 style="margin-top: 0; margin-bottom: 8px;">
+                  <a href="${repo.html_url}" target="_blank" style="font-weight: 600; color: #007bff; text-decoration: none;">${repo.name}</a>
+                </h4>
+                <p style="font-size: 1.3rem; color: #666; margin-bottom: 12px; flex-grow: 1; line-height: 1.5;">${repo.description || ''}</p>
+                <div style="font-size: 1.1rem; color: #888; display: flex; gap: 10px;">
+                   <span><i class="fas fa-circle" style="color: #3182ce; font-size: 0.8rem;"></i> ${repo.language || 'Mixed'}</span>
+                   <span><i class="far fa-star"></i> ${repo.stargazers_count}</span>
+                </div>
+              </div>
+            </div>
+          `;
+        });
+
+        document.getElementById('homepage-github-projects').innerHTML = html;
+      })
+      .catch(err => {
+        document.getElementById('homepage-github-projects').innerHTML = '<p style="text-align: center;">Error loading projects.</p>';
+      });
+  })();
+</script>
+
+<style>
+  .dark .project-card { border-color: #333 !important; background: #1a1a1a; }
+  .dark .project-card p { color: #aaa; }
+  
+  .view-more-container {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-view-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 30px;
+    background: #007bff;
+    color: #fff !important;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+  }
+  
+  .btn-view-more:hover {
+    background: #0056b3;
+    transform: translateX(5px);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.3);
+  }
+
+  .btn-view-more i {
+    font-size: 1.6rem;
+  }
+
+  .dark .btn-view-more {
+    background: #0056b3;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  }
+  .dark .btn-view-more:hover {
+    background: #007bff;
+  }
+</style>

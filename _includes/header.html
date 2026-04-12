@@ -1,7 +1,35 @@
-<div class="container header-container">
-  <div class="row">
+<div class="top-nav-row sticky-nav no-print">
+  <div class="container">
+    <div class="nav-flex-container">
+      <div class="nav-left">
+        <a href="{{ '/' | relative_url }}" class="nav-link home-icon-link">
+          <i class="bi bi-house-fill" title="Home"></i>
+        </a>
+      </div>
+      <div class="nav-right">
+        <ul class="section-nav">
+          <li><a href="{{ '/' | relative_url }}" class="nav-link">About</a></li>
+          <li><a href="{{ '/#education' | relative_url }}" class="nav-link">Education</a></li>
+          <li><a href="{{ '/#experience' | relative_url }}" class="nav-link">Experience</a></li>
+          <li><a href="{{ '/#publications' | relative_url }}" class="nav-link">Publications</a></li>
+          <li><a href="{{ '/#projects' | relative_url }}" class="nav-link">Projects</a></li>
+          <li><a onclick="downloadCV('{{ '/assets/pdf/cv.pdf' | relative_url }}')" class="nav-link" style="cursor: pointer; color: #007bff; font-weight: 700;">DownloadCV</a></li>
+          {%- if site.darkmode -%}
+            <li>
+              <a onclick="toggleTheme()" class="nav-link theme-toggle-link" style="cursor: pointer;">
+                <i class="fas fa-adjust" title="Toggle theme"></i>
+              </a>
+            </li>
+          {%- endif -%}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container header-container" style="margin-top: 80px;">
+  <div class="row main-header-row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
-      <h1>{{ site.name | escape }}</h1>
+      <h1><a href="{{ site.baseurl }}/" style="color: inherit; text-decoration: none;">{{ site.name | escape }}</a></h1>
       <h2>{{ site.title | escape }}</h2>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
@@ -107,19 +135,14 @@
       </ul>
 
       {%- if site.email -%}
-        <p>
-          {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+        <p style="margin-bottom: 2px;">
+          <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </p>
-      {%- endif -%}
-      {%- if site.phone -%}
-        <p>
-          {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
-        </p>
-      {%- endif -%}
-      {%- if site.website -%}
-        <p>
-          {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
-        </p>
+        {%- if site.email2 -%}
+          <p style="margin-bottom: 2px;">
+            <a href="mailto:{{ site.email2 }}" target="_blank">{{ site.email2 | escape }}</a>
+          </p>
+        {%- endif -%}
       {%- endif -%}
     </div>
   </div>
