@@ -1,7 +1,7 @@
 ---
 title: "Bridging the Culture Gap: A Framework for LLM-Driven Socio-Cultural Localization of Math Word Problems in Low-Resource Languages"
 date: 2025-08-13
-paper: http://arxiv.org/abs/2508.14913v3
+paper: http://arxiv.org/abs/2508.14913v4
 authors: "Israel Abebe Azime, Tadesse Destaw Belay, Dietrich Klakow, Philipp Slusallek, Anshuman Chhabra"
 layout: default
 ---

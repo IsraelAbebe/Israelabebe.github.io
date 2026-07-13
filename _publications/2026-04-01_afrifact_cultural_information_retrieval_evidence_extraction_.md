@@ -1,7 +1,7 @@
 ---
 title: "AfrIFact: Cultural Information Retrieval, Evidence Extraction and Fact Checking for African Languages"
 date: 2026-04-01
-paper: http://arxiv.org/abs/2604.00706v1
+paper: http://arxiv.org/abs/2604.00706v2
 authors: "Israel Abebe Azime, Jesujoba Oluwadara Alabi, Crystina Zhang, Iffat Maab, Atnafu Lambebo Tonja, Tadesse Destaw Belay, Folasade Peace Alabi, Salomey Osei, Saminu Mohammad Aliyu, Nkechinyere Faith Aguobi, Bontu Fufa Balcha, Blessing Kudzaishe Sibanda, Davis David, Mouhamadane Mboup, Daud Abolade, Neo Putini, Philipp Slusallek, David Ifeoluwa Adelani, Dietrich Klakow"
 layout: default
 ---
